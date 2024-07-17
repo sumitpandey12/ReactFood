@@ -1,0 +1,23 @@
+# Operating system specific files
+.DS_Store        # Mac-specific directory store
+Thumbs.db        # Windows thumbnail database
+.gitignore       # This file
+
+# IDE or editor specific files
+*.sublime-project  # Sublime Text project files
+*.sln              # Visual Studio Solution files
+*.vscode           # VS Code workspace files
+
+# Temporary or generated files
+node_modules     # Dependency folder (use package manager)
+dist              # Distribution folder
+build             # Build artifacts
+.env              # Environment variables
+
+# Logs and test files
+*.log             # Log files
+coverage          # Test coverage reports
+
+# Front-end specific files
+package-lock.json  # Package-lock file (use package manager)
+public            # Public folder (if using a build process)
